@@ -1,5 +1,5 @@
 .card{
-    width: 300px;
+    width: 310px;
     height: 300px;
     padding: 10px;
     display: flex;
@@ -11,8 +11,13 @@
     background-color: $white;
     color: white;
     border: none;
+    margin:5px;
     p,b,h2{
       background-color: $white;
+      color: $starship;
+      font-size: $fontMed;
+    }
+    b{
       color: black;
     }
 }

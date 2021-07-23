@@ -1,23 +1,39 @@
 .starship{
-    margin: 20px 0;
+    margin: 20px 10px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     border-radius: 20px;
     border: 1px solid grey;
     background-color: $white;
+    padding: 20px;
     @media screen and (max-width:768px){
         flex-direction: column;
         text-align: center;
      }
-    &__info,p,b,h2{
+     h2{
+       font-size: $fontSuperBig;  
+     }
+    &__info,p,h2{
         background-color: white;
+        color:$starship;
+        font-size: $fontBig;
+        @media screen and (max-width:768px){
+            font-size: $fontMed;
+         }
+    }
+    b{
         color: black;
     }
- 
+    h2{
+        font-size: $fontSuperBig;  
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
     img{
-        width: 400px;
-        height: 350px;
+        width: 350px;
+        height: 300px;
         @media screen and (max-width:768px){
             width: 300px;
             height: 250px;

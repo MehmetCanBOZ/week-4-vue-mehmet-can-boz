@@ -25,6 +25,10 @@
     cursor:no-drop;
     color: black;
   }
+  button:not([disabled]):hover{
+    background-color: $starship;
+    color: #000;
+  }
 }
 
 
