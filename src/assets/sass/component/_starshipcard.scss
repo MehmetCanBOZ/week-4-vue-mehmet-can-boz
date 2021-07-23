@@ -1,5 +1,6 @@
 .card{
     width: 300px;
+    height: 300px;
     padding: 10px;
     display: flex;
     flex-direction: column;
@@ -7,9 +8,16 @@
     align-items: center;
     animation: animateTumb 0.5s;
     border-radius: 20px;
+    background-color: $white;
+    color: white;
+    border: none;
+    p,b,h2{
+      background-color: $white;
+      color: black;
+    }
 }
 .card:hover{
-  box-shadow: 2px 1px 17px 3px rgba(0,0,0,0.89);
+  box-shadow: 2px 1px 17px 7px rgba(195, 36, 36, 0.89);
 }
 @keyframes animateTumb {
   from{
@@ -19,4 +27,17 @@
   to {
       opacity: 1;
   };
+}
+.content-item .pic a{
+  overflow: hidden;
+  display: block;
+}
+
+.content-item .pic img {
+  transition: 600ms;
+}
+
+.content-item:hover .pic img {
+  transform: scale(1.06);
+
 }

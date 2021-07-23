@@ -1,7 +1,11 @@
 <template>
     <div @click="goDetail(starship.url,starship.name)" class="card">
         <h2>{{starship.name}}</h2>
-        <img src="../assets/images/starship.png" alt="logo" width="250px" height="250px">
+        <div class="content-item" >
+          <div class="pic">
+              <a><img src="../assets/images/starship.png" alt="logo"></a>
+          </div>
+        </div>
         <p>Model: <b>{{starship.model}}</b></p>
         <p>Hyperdrive Rating: <b>{{starship.hyperdrive_rating}}</b></p>
     </div>

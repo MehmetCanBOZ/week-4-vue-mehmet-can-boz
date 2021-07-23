@@ -5,10 +5,16 @@
     align-items: center;
     border-radius: 20px;
     border: 1px solid grey;
+    background-color: $white;
     @media screen and (max-width:768px){
         flex-direction: column;
         text-align: center;
      }
+    &__info,p,b,h2{
+        background-color: white;
+        color: black;
+    }
+ 
     img{
         width: 400px;
         height: 350px;
@@ -19,5 +25,5 @@
     }
 }
 .starship:hover{
-  box-shadow: 2px 1px 17px 3px rgba(0,0,0,0.89);
+    box-shadow: 2px 1px 17px 7px rgba(195, 36, 36, 0.89);
 }
