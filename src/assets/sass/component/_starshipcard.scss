@@ -1,0 +1,22 @@
+.card{
+    width: 300px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: animateTumb 0.5s;
+    border-radius: 20px;
+}
+.card:hover{
+  box-shadow: 2px 1px 17px 3px rgba(0,0,0,0.89);
+}
+@keyframes animateTumb {
+  from{
+
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  };
+}

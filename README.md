@@ -1,19 +1,26 @@
-# week4-vue-mehmet-can-boz
+# SWAPI API Challenge
+This is a Trendyol Frontend Bootcamp Vue homework.
+You can see Star Wars Starship and their details on the app.
+Use Pagination to see more starship.
 
-## Project setup
-```
+## Live Website Link
+🔽✔
+[Demo Link SWAPI API](https://blissful-euler-fdddc9.netlify.app/)
+
+## Installation
+
+Use the package manager [npm](https://www.npmjs.com/) to install foobar.
+
+```bash
+clone project
 npm install
-```
-
-### Compiles and hot-reloads for development
-```
 npm run serve
 ```
+## API
+[SWAPI](https://swapi.dev/)
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## License
+No License
