@@ -2,7 +2,7 @@
     <div v-if="starship">
       <Breadcrump :name="starship.name"/>
         <div class="starship" >
-         <img src="../assets/images/starship.png" alt="logo" width="400px" height="350px">
+         <img src="../assets/images/starship.png" alt="logo">
          <div class="starship__info">
             <h2>{{ starship.name }}</h2>
             <p>Model: <b>{{ starship.model }}</b></p>

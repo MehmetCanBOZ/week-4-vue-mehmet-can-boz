@@ -20,7 +20,7 @@
             width: 30px;
         }
         input{
-               font-size:1.5rem;
+               font-size:$fontBig;
                position: absolute;
                left:0;
                margin: 8px 0;
@@ -30,6 +30,9 @@
                background: transparent;
                height: 40px;
                color: white;  
+               @media screen and (max-width:500px){
+                font-size:$fontSmall;
+            }
         }
         input:focus{
             outline: none;
