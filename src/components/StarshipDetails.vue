@@ -40,6 +40,7 @@ export default {
       };
   },
   methods: {
+      //Fetch starship detail  
       fetchStarship() {
       axios
         .get(`https://swapi.dev/api/starships/${this.$route.query.url}`)

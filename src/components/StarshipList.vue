@@ -22,13 +22,10 @@ export default {
   components: { StarshipCard, Spinner,Pagination },
   name: 'StarshipList',
     computed: {
-    // mix the getters into computed with object spread operator
+    // Get starship list on store
     ...mapState([
         'cardList'
     ])
-  },
-  methods: {
-      
   },
   mounted () {
         this.$store.dispatch('loadItems')

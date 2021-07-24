@@ -12,10 +12,12 @@ import { mapState} from 'vuex';
 export default {
   name: 'Pagination',
   methods:{
+    //Upload previous page result on state
     PreviousPage(){
        this.$store.dispatch('loadPreviousItems'); 
        console.log("previos");
     },
+    //Upload next page result on state
     NextPage(){
       this.$store.dispatch('loadNextItems');
       console.log("next"); 

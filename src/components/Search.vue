@@ -16,11 +16,6 @@ export default {
           search:"",
       };
   },
-    computed: {
-    
-  },
-  component:{
-  },
    methods: {
       searchResult(e){
           
